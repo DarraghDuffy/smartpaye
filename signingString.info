@@ -1,0 +1,5 @@
+(request-target): post /paye-employers/v1/rest/payroll/8000048CH/2019/1/1?softwareUsed=core&softwareVersion=1.0
+host: softwaretest.ros.ie
+date: Thu, June 08 16:30:00 BST 2018
+content-type: application/json
+digest: MDMwMmQ1OTBlNGEwYzQwMDg1NTVhYzljZWZiODRkYzIzNmE3NWY0MmJhYTAwYTQzMTA3ZmYwZDk0YjAwZjcyZDY0OGNhMWYxYjk5NTQ2ZjVlNjg3ZGMzOTgxZGYxNWFiYWQ3NzU1MzQ4YjMzNzUyOTY4NDVkMDNlZjlkYzI5YzM=
