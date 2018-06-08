@@ -1,5 +1,5 @@
 {
   "code": "1003",
-  "description": "Description: Digest header must match digest that has been regenerated from request body content / Reason: The received digest does not match against the calculated digest.",
+  "description": "Description: Invalid Signature / Reason: Signature does not match signed content.",
   "path": "/paye-employers-webservice-v1/v1/rest/payroll/8000048CH/2019/1/1"
 }
