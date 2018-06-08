@@ -5,13 +5,13 @@ i.e. HEX 0A or DEC 10 or OCT 012.
 
 --Revenue Test Case
 1. Get Digest, defined as base64(sha512(requestBody))
-cat requestBody.json | openssl sha512 | openssl base64
+cat requestBody.json | openssl dgst -binary -sha512 | openssl base64 -A
 
 2. Get HTTP Message Signature,
 using the Header parameters for String Signing headers="(request-target) host date digest content-type"
 with RSA_SHA512, the String is located in signingString.info and then BASE64 encoded
 
-openssl dgst -sha512 -sign private_key.pem signingString.info | openssl base64
+openssl dgst -sha512 -sign private_key.pem signingString.info | openssl base64 -A
 
 3. CURL Command
 See curl.info
